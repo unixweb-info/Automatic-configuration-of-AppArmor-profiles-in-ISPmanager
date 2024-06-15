@@ -2,11 +2,9 @@
  Script for automatic installation and configuration of AppArmor in ISPmanager
 ## Loading and executing the script
 
-<code>
-wget https://raw.githubusercontent.com/unixweb-info/Automatic-configuration-of-AppArmor-profiles-in-ISPmanager/main/apparmor-install-and-setting-in-ispmanager6.sh
+<code>wget https://raw.githubusercontent.com/unixweb-info/Automatic-configuration-of-AppArmor-profiles-in-ISPmanager/main/apparmor-install-and-setting-in-ispmanager6.sh
 chmod +x apparmor-install-and-setting-in-ispmanager6.sh
-./apparmor-install-and-setting-in-ispmanager6.sh
-</code>
+./apparmor-install-and-setting-in-ispmanager6.sh</code>
 
 This Bash script performs several operations related to system configuration and package management. Here's a breakdown of what it does:
 
