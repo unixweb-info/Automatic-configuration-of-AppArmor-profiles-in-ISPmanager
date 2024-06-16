@@ -29,7 +29,7 @@ if ! command -v git &>/dev/null; then
 fi
 
 # Define packages to install
-packages=("apparmor-utils" "libapache2-mod-apparmor" "auditd")
+packages=("apparmor" "apparmor-utils" "libapache2-mod-apparmor" "auditd")
 
 # Install packages if they are not already installed
 for package in "${packages[@]}"; do
