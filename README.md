@@ -14,7 +14,7 @@ This Bash script performs several operations related to system configuration and
 
 3. **Installs sudo and git**: If `sudo` or `git` are not installed, the script installs them.
 
-4. **Installs Specific Packages**: The script defines a list of packages (`apparmor-utils`, `libapache2-mod-apparmor`, `auditd`) and installs them if they are not already installed.
+4. **Installs Specific Packages**: The script defines a list of packages (`apparmor`, `apparmor-utils`, `libapache2-mod-apparmor`, `auditd`) and installs them if they are not already installed.
 
 5. **Backs Up Existing AppArmor Profiles**: If there are existing AppArmor profiles, the script backs them up.
 
