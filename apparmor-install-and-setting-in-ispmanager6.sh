@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# Copyright (C) Author: Kriachko Aleksei admin@unixweb.info
 # Check if the script is being run as root or by a user in the sudo group
 if [[ $EUID -ne 0 ]]; then
   if groups $USER | grep &>/dev/null '\bsudo\b'; then
